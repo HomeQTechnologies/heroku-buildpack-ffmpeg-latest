@@ -22,6 +22,7 @@ header "Installing ffmpeg"
 BUILD_DIR=${1:-}
 VENDOR_DIR="vendor"
 FFMPEG_ARCHIVE_NAME="ffmpeg.tar.xz"
+FFMPEG_DOWNLOAD_URL='https://homeq-assets.s3.eu-north-1.amazonaws.com/ffmpeg.tar.xz'
 
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
